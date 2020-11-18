@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+
+  a.link(href="/new") write new message
+
+  ul
+    each object in messages
+      div.post
+        li.postTime= "On " + object.added
+        li.postUser= "user " + object.user + " said"
+        li.postText= object.text

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1= title
+
+    a.link(href="../") return to the main page
+
+    form(method="POST" action="/new")
+        div.new
+            input(type="text" placeholder="your nick" name="messageUser")
+            textarea.msg(type="text" placeholder="message" name="messageText")
+            input(type="submit")
+

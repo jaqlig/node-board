@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.link {
+  color: #00B7FF;
+  
+}
+
+li {
+  list-style: none;
+}
+
+.post{
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  margin: 10px auto;
+  max-width: 1000px;
+}
+
+.postText, .postUser, .postTime{
+  margin: 4px;
+}
+
+.postText{
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  padding: 6px;
+}
+
+.new{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 60px 0;
+}
+
+.new *{
+   background-color: #fdfdfd;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  margin: 4px;
+}
+
+.msg{
+  height: 200px;
+}
